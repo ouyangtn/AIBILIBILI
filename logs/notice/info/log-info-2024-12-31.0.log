@@ -1,0 +1,378 @@
+2024-12-31 12:13:00 |INFO  |background-preinit |Version.java:21 |org.hibernate.validator.internal.util.Version |HV000001: Hibernate Validator 6.2.4.Final
+2024-12-31 12:13:00 |INFO  |main |StartupInfoLogger.java:55 |ljl.bilibili.notice.MessageApplication |Starting MessageApplication using Java 17.0.13 on DESKTOP-JHA4ATL with PID 35844 (E:\YupiProjects\aigcbilibili-main\java\notice\target\classes started by 欧阳健丽 in E:\YupiProjects\aigcbilibili-main)
+2024-12-31 12:13:00 |INFO  |main |SpringApplication.java:645 |ljl.bilibili.notice.MessageApplication |No active profile set, falling back to 1 default profile: "default"
+2024-12-31 12:13:02 |INFO  |main |RepositoryConfigurationDelegate.java:262 |org.springframework.data.repository.config.RepositoryConfigurationDelegate |Multiple Spring Data modules found, entering strict repository configuration mode
+2024-12-31 12:13:02 |INFO  |main |RepositoryConfigurationDelegate.java:132 |org.springframework.data.repository.config.RepositoryConfigurationDelegate |Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-12-31 12:13:02 |INFO  |main |RepositoryConfigurationDelegate.java:201 |org.springframework.data.repository.config.RepositoryConfigurationDelegate |Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2024-12-31 12:13:02 |INFO  |main |GenericScope.java:283 |org.springframework.cloud.context.scope.GenericScope |BeanFactory id=2aeec7e4-681c-3f32-84b3-5b849d0116d0
+2024-12-31 12:13:02 |INFO  |main |PostProcessorRegistrationDelegate.java:376 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration$$EnhancerBySpringCGLIB$$c304cb3a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-12-31 12:13:02 |INFO  |main |PostProcessorRegistrationDelegate.java:376 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-12-31 12:13:02 |INFO  |main |PostProcessorRegistrationDelegate.java:376 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-12-31 12:13:02 |INFO  |main |PostProcessorRegistrationDelegate.java:376 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$555/0x000002798344bdf0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-12-31 12:13:02 |INFO  |main |PostProcessorRegistrationDelegate.java:376 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-12-31 12:13:02 |INFO  |main |PostProcessorRegistrationDelegate.java:376 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-12-31 12:13:02 |INFO  |main |PostProcessorRegistrationDelegate.java:376 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'defaultMQProducer' of type [org.apache.rocketmq.client.producer.DefaultMQProducer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-12-31 12:13:02 |INFO  |main |PostProcessorRegistrationDelegate.java:376 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'jacksonConfig' of type [ljl.bilibili.notice.config.JacksonConfig$$EnhancerBySpringCGLIB$$1ec5bc1c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-12-31 12:13:02 |INFO  |main |PostProcessorRegistrationDelegate.java:376 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'objectMapper' of type [com.fasterxml.jackson.databind.ObjectMapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-12-31 12:13:02 |INFO  |main |PostProcessorRegistrationDelegate.java:376 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration$$EnhancerBySpringCGLIB$$de13c428] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-12-31 12:13:02 |INFO  |main |PostProcessorRegistrationDelegate.java:376 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'createRocketMQMessageConverter' of type [org.apache.rocketmq.spring.support.RocketMQMessageConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-12-31 12:13:03 |INFO  |main |PostProcessorRegistrationDelegate.java:376 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'rocketMQTemplate' of type [org.apache.rocketmq.spring.core.RocketMQTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-12-31 12:13:03 |INFO  |main |PostProcessorRegistrationDelegate.java:376 |org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker |Bean 'transactionHandlerRegistry' of type [org.apache.rocketmq.spring.config.TransactionHandlerRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-12-31 12:13:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:13:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:13:04 |INFO  |main |TomcatWebServer.java:108 |org.springframework.boot.web.embedded.tomcat.TomcatWebServer |Tomcat initialized with port(s): 30000 (http)
+2024-12-31 12:13:04 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+2024-12-31 12:13:04 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2024-12-31 12:13:04 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-12-31 12:13:04 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-12-31 12:13:04 |INFO  |main |DirectJDKLog.java:173 |org.apache.coyote.http11.Http11NioProtocol |Initializing ProtocolHandler ["http-nio-30000"]
+2024-12-31 12:13:04 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.StandardService |Starting service [Tomcat]
+2024-12-31 12:13:04 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.StandardEngine |Starting Servlet engine: [Apache Tomcat/9.0.65]
+2024-12-31 12:13:04 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] |Initializing Spring embedded WebApplicationContext
+2024-12-31 12:13:04 |INFO  |main |ServletWebServerApplicationContext.java:290 |org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext |Root WebApplicationContext: initialization completed in 4179 ms
+2024-12-31 12:13:05 |INFO  |main |MybatisPlusJoinAutoConfiguration.java:140 |com.github.yulichang.autoconfigure.MybatisPlusJoinAutoConfiguration |mybatis plus join properties config complete
+2024-12-31 12:13:05 |INFO  |main |MybatisPlusJoinAutoConfiguration.java:140 |com.github.yulichang.autoconfigure.MybatisPlusJoinAutoConfiguration |mybatis plus join SqlInjector init
+2024-12-31 12:13:07 |INFO  |main |WebMvcPropertySourcedRequestMappingHandlerMapping.java:69 |springfox.documentation.spring.web.WebMvcPropertySourcedRequestMappingHandlerMapping |Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2024-12-31 12:13:09 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:13:09 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:13:09 |INFO  |main |DefaultRocketMQListenerContainer.java:281 |org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer |running container: DefaultRocketMQListenerContainer{consumerGroup='comment-group', nameServer='localhost:9876', topic='comment', consumeMode=CONCURRENTLY, selectorType=TAG, selectorExpression='*', messageModel=CLUSTERING}
+2024-12-31 12:13:09 |INFO  |main |ListenerContainerConfiguration.java:127 |org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration |Register the listener to container, listenerBeanName:commentConsumer, containerBeanName:org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer_1
+2024-12-31 12:13:09 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:13:09 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:13:09 |INFO  |main |DefaultRocketMQListenerContainer.java:281 |org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer |running container: DefaultRocketMQListenerContainer{consumerGroup='dynamic-group', nameServer='localhost:9876', topic='dynamic', consumeMode=CONCURRENTLY, selectorType=TAG, selectorExpression='*', messageModel=CLUSTERING}
+2024-12-31 12:13:09 |INFO  |main |ListenerContainerConfiguration.java:127 |org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration |Register the listener to container, listenerBeanName:dynamicConsumer, containerBeanName:org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer_2
+2024-12-31 12:13:09 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:13:09 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:13:09 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:13:09 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:13:09 |INFO  |main |DefaultRocketMQListenerContainer.java:281 |org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer |running container: DefaultRocketMQListenerContainer{consumerGroup='like-group', nameServer='localhost:9876', topic='like', consumeMode=ORDERLY, selectorType=TAG, selectorExpression='*', messageModel=CLUSTERING}
+2024-12-31 12:13:09 |INFO  |main |ListenerContainerConfiguration.java:127 |org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration |Register the listener to container, listenerBeanName:likeConsumer, containerBeanName:org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer_3
+2024-12-31 12:13:09 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:13:09 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:13:09 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:13:09 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:13:09 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:13:09 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:13:09 |INFO  |main |DefaultRocketMQListenerContainer.java:281 |org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer |running container: DefaultRocketMQListenerContainer{consumerGroup='mysql-es-group', nameServer='localhost:9876', topic='mysqlToEs', consumeMode=CONCURRENTLY, selectorType=TAG, selectorExpression='*', messageModel=CLUSTERING}
+2024-12-31 12:13:09 |INFO  |main |ListenerContainerConfiguration.java:127 |org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration |Register the listener to container, listenerBeanName:mysqlToEsConsumer, containerBeanName:org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer_4
+2024-12-31 12:13:09 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:13:09 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:13:09 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:13:09 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:13:09 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:13:09 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:13:09 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:13:09 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:13:09 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:13:09 |INFO  |main |DefaultRocketMQListenerContainer.java:281 |org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer |running container: DefaultRocketMQListenerContainer{consumerGroup='video-encode-group', nameServer='localhost:9876', topic='video-encode', consumeMode=ORDERLY, selectorType=TAG, selectorExpression='*', messageModel=CLUSTERING}
+2024-12-31 12:13:09 |INFO  |main |ListenerContainerConfiguration.java:127 |org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration |Register the listener to container, listenerBeanName:videoEncodeConsumer, containerBeanName:org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer_5
+2024-12-31 12:13:10 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:13:10 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:13:10 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:13:10 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:13:10 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:13:10 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:13:10 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:13:10 |INFO  |main |DirectJDKLog.java:173 |org.apache.coyote.http11.Http11NioProtocol |Starting ProtocolHandler ["http-nio-30000"]
+2024-12-31 12:13:10 |INFO  |main |TomcatWebServer.java:220 |org.springframework.boot.web.embedded.tomcat.TomcatWebServer |Tomcat started on port(s): 30000 (http) with context path ''
+2024-12-31 12:13:10 |INFO  |main |DocumentationPluginsBootstrapper.java:93 |springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper |Documentation plugins bootstrapped
+2024-12-31 12:13:10 |INFO  |main |AbstractDocumentationPluginsBootstrapper.java:79 |springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper |Found 1 custom documentation plugin(s)
+2024-12-31 12:13:10 |INFO  |main |ApiListingReferenceScanner.java:44 |springfox.documentation.spring.web.scanners.ApiListingReferenceScanner |Scanning for api listing references
+2024-12-31 12:13:10 |INFO  |main |StartupInfoLogger.java:61 |ljl.bilibili.notice.MessageApplication |Started MessageApplication in 13.101 seconds (JVM running for 15.925)
+2024-12-31 12:13:30 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:13:30 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:13:30 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:13:30 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:13:30 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:13:30 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:13:30 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:13:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:13:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:13:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:13:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:13:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:13:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:13:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:13:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:13:50 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:13:50 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:13:50 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:14:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:14:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:14:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:14:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:14:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:14:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:14:10 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:14:10 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:14:10 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:14:10 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:14:10 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:14:10 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:14:10 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:14:10 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:14:10 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:14:30 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:14:30 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:14:30 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:14:30 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:14:30 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:14:30 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:14:30 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:14:30 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:14:30 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:14:30 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:14:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:14:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:14:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:14:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:14:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:14:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:14:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:14:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:14:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:14:50 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:14:50 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:14:50 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:14:50 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:14:50 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:14:50 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:14:50 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:14:50 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:14:50 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:15:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:15:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:15:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:15:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:15:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:15:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:15:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:15:10 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:15:10 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:15:10 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:15:10 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:15:10 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:15:10 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:15:10 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:15:10 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:15:30 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:15:30 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:15:30 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:15:30 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:15:30 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:15:30 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:15:30 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:15:30 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:15:30 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:15:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:15:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:15:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:15:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:15:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:15:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:15:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:15:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:15:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:15:50 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:15:50 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:15:50 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:15:50 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:15:50 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:16:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:16:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:16:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:16:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:16:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:16:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:16:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:16:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:16:10 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:16:10 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:16:10 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:16:10 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:16:10 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:16:10 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:16:10 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:16:10 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:16:10 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:16:10 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:16:30 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:16:30 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:16:30 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:16:30 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:16:30 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:16:30 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:16:30 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:16:30 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:16:30 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:16:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:16:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:16:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:16:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:16:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:16:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:16:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:16:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:16:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:16:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:16:50 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:16:50 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:16:50 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:16:50 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:16:50 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:16:50 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:16:50 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:16:50 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:16:50 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:16:50 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:17:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:17:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:17:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:17:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:17:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:17:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:17:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:17:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:17:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:17:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:17:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:17:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:17:10 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:17:10 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:17:10 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:17:10 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:17:10 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:17:10 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:17:10 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:17:10 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:17:30 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:17:30 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:17:30 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:17:30 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:17:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:17:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:17:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:17:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:17:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:17:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:17:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:17:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:17:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:17:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:17:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:17:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:17:50 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:17:50 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:17:50 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:17:50 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:17:50 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:17:50 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:18:03 |INFO  |NettyClientSelector_1 |TimeBasedFilter.java:24 |ljl.bilibili.filter.TimeBasedFilter |
+
+
+
+
+
+
+2024-12-31 12:18:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:18:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:18:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:18:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:18:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:18:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:18:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:18:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:18:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:18:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:18:10 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:18:10 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:18:10 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:18:10 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:18:10 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:18:10 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:18:10 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:18:30 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:18:31 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:18:31 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:18:31 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:18:31 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:18:31 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:18:31 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:18:31 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:18:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:18:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:18:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:18:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:18:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:18:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:18:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:18:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:18:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:18:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:18:51 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:18:51 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:18:51 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:18:51 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:18:51 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:18:51 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:18:51 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:19:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:19:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:19:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:19:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:19:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:19:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:19:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:19:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:19:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:19:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:19:11 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:19:11 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:19:11 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:19:11 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:19:11 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:19:11 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:19:11 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:19:11 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:19:31 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:19:31 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:19:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:19:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:19:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:19:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:19:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:19:51 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:19:51 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:19:51 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:19:51 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:19:51 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:20:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:20:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:20:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:20:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:20:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:20:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:20:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:20:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:20:03 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:20:11 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:20:11 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:20:11 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:20:11 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:20:11 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:20:11 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:20:11 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:20:11 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:20:31 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:20:31 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:20:31 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:20:31 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:20:31 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:20:31 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:20:31 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:20:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:20:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:20:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:20:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:20:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2024-12-31 12:20:33 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true

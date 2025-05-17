@@ -1,0 +1,20 @@
+2025-01-08 01:26:42 |INFO  |Thread-7 |TimeBasedFilter.java:24 |ljl.bilibili.filter.TimeBasedFilter |
+
+
+
+
+
+
+2025-01-08 01:26:42 |INFO  |Thread-7 |ZipkinAutoConfiguration.java:144 |org.springframework.cloud.sleuth.autoconfig.zipkin2.ZipkinAutoConfiguration |Flushing remaining spans on shutdown
+2025-01-08 01:26:43 |INFO  |SpringApplicationShutdownHook |DefaultRocketMQListenerContainer.java:254 |org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer |container destroyed, DefaultRocketMQListenerContainer{consumerGroup='video-encode-group', nameServer='localhost:9876', topic='video-encode', consumeMode=ORDERLY, selectorType=TAG, selectorExpression='*', messageModel=CLUSTERING}
+2025-01-08 01:26:43 |INFO  |SpringApplicationShutdownHook |DefaultRocketMQListenerContainer.java:254 |org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer |container destroyed, DefaultRocketMQListenerContainer{consumerGroup='mysql-es-group', nameServer='localhost:9876', topic='mysqlToEs', consumeMode=CONCURRENTLY, selectorType=TAG, selectorExpression='*', messageModel=CLUSTERING}
+2025-01-08 01:26:43 |INFO  |SpringApplicationShutdownHook |DefaultRocketMQListenerContainer.java:254 |org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer |container destroyed, DefaultRocketMQListenerContainer{consumerGroup='like-group', nameServer='localhost:9876', topic='like', consumeMode=ORDERLY, selectorType=TAG, selectorExpression='*', messageModel=CLUSTERING}
+2025-01-08 01:26:43 |INFO  |SpringApplicationShutdownHook |DefaultRocketMQListenerContainer.java:254 |org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer |container destroyed, DefaultRocketMQListenerContainer{consumerGroup='dynamic-group', nameServer='localhost:9876', topic='dynamic', consumeMode=CONCURRENTLY, selectorType=TAG, selectorExpression='*', messageModel=CLUSTERING}
+2025-01-08 01:26:43 |INFO  |SpringApplicationShutdownHook |DefaultRocketMQListenerContainer.java:254 |org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer |container destroyed, DefaultRocketMQListenerContainer{consumerGroup='comment-group', nameServer='localhost:9876', topic='comment', consumeMode=CONCURRENTLY, selectorType=TAG, selectorExpression='*', messageModel=CLUSTERING}
+2025-01-08 01:26:43 |INFO  |SpringApplicationShutdownHook |DruidDataSource.java:2063 |com.alibaba.druid.pool.DruidDataSource |{dataSource-0} closing ...
+2025-01-08 01:26:44 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[192.168.15.1:10911] result: true
+2025-01-08 01:26:44 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-01-08 01:26:44 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[192.168.15.1:10911] result: true
+2025-01-08 01:26:44 |INFO  |NettyClientSelector_1 |Slf4jLoggerFactory.java:95 |RocketmqRemoting |closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-01-08 01:26:44 |WARN  |SpringApplicationShutdownHook |DisposableBeanAdapter.java:222 |org.springframework.beans.factory.support.DisposableBeanAdapter |Invocation of destroy method failed on bean with name 'rocketMQTemplate': java.lang.IllegalStateException: Shutdown in progress
+2025-01-08 01:26:44 |WARN  |SpringApplicationShutdownHook |DisposableBeanAdapter.java:329 |org.springframework.beans.factory.support.DisposableBeanAdapter |Custom destroy method 'shutdown' on bean with name 'defaultMQProducer' threw an exception: java.lang.IllegalStateException: Shutdown in progress

@@ -1,0 +1,108 @@
+2025-01-04 01:57:08 |INFO  |Thread-2 |TimeBasedFilter.java:24 |ljl.bilibili.filter.TimeBasedFilter |
+
+
+
+
+
+
+2025-01-04 01:57:08 |INFO  |Thread-2 |ZipkinAutoConfiguration.java:144 |org.springframework.cloud.sleuth.autoconfig.zipkin2.ZipkinAutoConfiguration |Flushing remaining spans on shutdown
+2025-01-04 01:57:09 |INFO  |SpringApplicationShutdownHook |DruidDataSource.java:2063 |com.alibaba.druid.pool.DruidDataSource |{dataSource-0} closing ...
+2025-01-04 01:57:29 |INFO  |main |StartupInfoLogger.java:55 |ljl.bilibili.user_center.CenterEditApplication |Starting CenterEditApplication using Java 17.0.13 on DESKTOP-JHA4ATL with PID 31448 (E:\YupiProjects\aigcbilibili-main\java\user_center\target\classes started by 欧阳健丽 in E:\YupiProjects\aigcbilibili-main)
+2025-01-04 01:57:29 |INFO  |main |SpringApplication.java:645 |ljl.bilibili.user_center.CenterEditApplication |No active profile set, falling back to 1 default profile: "default"
+2025-01-04 01:57:31 |INFO  |main |GenericScope.java:283 |org.springframework.cloud.context.scope.GenericScope |BeanFactory id=857f8e3d-9f77-3bd8-bfc8-c4f4806fc5a0
+2025-01-04 01:57:32 |INFO  |main |TomcatWebServer.java:108 |org.springframework.boot.web.embedded.tomcat.TomcatWebServer |Tomcat initialized with port(s): 3000 (http)
+2025-01-04 01:57:32 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+2025-01-04 01:57:32 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2025-01-04 01:57:32 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2025-01-04 01:57:32 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2025-01-04 01:57:32 |INFO  |main |DirectJDKLog.java:173 |org.apache.coyote.http11.Http11NioProtocol |Initializing ProtocolHandler ["http-nio-3000"]
+2025-01-04 01:57:32 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.StandardService |Starting service [Tomcat]
+2025-01-04 01:57:32 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.StandardEngine |Starting Servlet engine: [Apache Tomcat/9.0.65]
+2025-01-04 01:57:32 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] |Initializing Spring embedded WebApplicationContext
+2025-01-04 01:57:32 |INFO  |main |ServletWebServerApplicationContext.java:290 |org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext |Root WebApplicationContext: initialization completed in 2858 ms
+2025-01-04 01:57:33 |INFO  |main |MybatisPlusJoinAutoConfiguration.java:140 |com.github.yulichang.autoconfigure.MybatisPlusJoinAutoConfiguration |mybatis plus join properties config complete
+2025-01-04 01:57:33 |INFO  |main |MybatisPlusJoinAutoConfiguration.java:140 |com.github.yulichang.autoconfigure.MybatisPlusJoinAutoConfiguration |mybatis plus join SqlInjector init
+2025-01-04 01:57:35 |INFO  |main |WebMvcPropertySourcedRequestMappingHandlerMapping.java:69 |springfox.documentation.spring.web.WebMvcPropertySourcedRequestMappingHandlerMapping |Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2025-01-04 01:57:37 |INFO  |main |DirectJDKLog.java:173 |org.apache.coyote.http11.Http11NioProtocol |Starting ProtocolHandler ["http-nio-3000"]
+2025-01-04 01:57:37 |INFO  |main |TomcatWebServer.java:220 |org.springframework.boot.web.embedded.tomcat.TomcatWebServer |Tomcat started on port(s): 3000 (http) with context path ''
+2025-01-04 01:57:37 |INFO  |main |DocumentationPluginsBootstrapper.java:93 |springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper |Documentation plugins bootstrapped
+2025-01-04 01:57:37 |INFO  |main |AbstractDocumentationPluginsBootstrapper.java:79 |springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper |Found 1 custom documentation plugin(s)
+2025-01-04 01:57:37 |INFO  |main |ApiListingReferenceScanner.java:44 |springfox.documentation.spring.web.scanners.ApiListingReferenceScanner |Scanning for api listing references
+2025-01-04 01:57:37 |INFO  |main |StartupInfoLogger.java:61 |ljl.bilibili.user_center.CenterEditApplication |Started CenterEditApplication in 8.781 seconds (JVM running for 10.248)
+2025-01-04 01:58:27 |INFO  |Thread-2 |ZipkinAutoConfiguration.java:144 |org.springframework.cloud.sleuth.autoconfig.zipkin2.ZipkinAutoConfiguration |Flushing remaining spans on shutdown
+2025-01-04 01:58:28 |INFO  |SpringApplicationShutdownHook |DruidDataSource.java:2063 |com.alibaba.druid.pool.DruidDataSource |{dataSource-0} closing ...
+2025-01-04 01:58:32 |INFO  |main |StartupInfoLogger.java:55 |ljl.bilibili.user_center.CenterEditApplication |Starting CenterEditApplication using Java 17.0.13 on DESKTOP-JHA4ATL with PID 35644 (E:\YupiProjects\aigcbilibili-main\java\user_center\target\classes started by 欧阳健丽 in E:\YupiProjects\aigcbilibili-main)
+2025-01-04 01:58:32 |INFO  |main |SpringApplication.java:645 |ljl.bilibili.user_center.CenterEditApplication |No active profile set, falling back to 1 default profile: "default"
+2025-01-04 01:58:33 |INFO  |main |GenericScope.java:283 |org.springframework.cloud.context.scope.GenericScope |BeanFactory id=857f8e3d-9f77-3bd8-bfc8-c4f4806fc5a0
+2025-01-04 01:58:34 |INFO  |main |TomcatWebServer.java:108 |org.springframework.boot.web.embedded.tomcat.TomcatWebServer |Tomcat initialized with port(s): 3000 (http)
+2025-01-04 01:58:34 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+2025-01-04 01:58:34 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2025-01-04 01:58:34 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2025-01-04 01:58:34 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2025-01-04 01:58:34 |INFO  |main |DirectJDKLog.java:173 |org.apache.coyote.http11.Http11NioProtocol |Initializing ProtocolHandler ["http-nio-3000"]
+2025-01-04 01:58:34 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.StandardService |Starting service [Tomcat]
+2025-01-04 01:58:34 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.StandardEngine |Starting Servlet engine: [Apache Tomcat/9.0.65]
+2025-01-04 01:58:34 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] |Initializing Spring embedded WebApplicationContext
+2025-01-04 01:58:34 |INFO  |main |ServletWebServerApplicationContext.java:290 |org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext |Root WebApplicationContext: initialization completed in 1488 ms
+2025-01-04 01:58:34 |INFO  |main |MybatisPlusJoinAutoConfiguration.java:140 |com.github.yulichang.autoconfigure.MybatisPlusJoinAutoConfiguration |mybatis plus join properties config complete
+2025-01-04 01:58:34 |INFO  |main |MybatisPlusJoinAutoConfiguration.java:140 |com.github.yulichang.autoconfigure.MybatisPlusJoinAutoConfiguration |mybatis plus join SqlInjector init
+2025-01-04 01:58:35 |INFO  |main |WebMvcPropertySourcedRequestMappingHandlerMapping.java:69 |springfox.documentation.spring.web.WebMvcPropertySourcedRequestMappingHandlerMapping |Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2025-01-04 01:58:36 |INFO  |main |DirectJDKLog.java:173 |org.apache.coyote.http11.Http11NioProtocol |Starting ProtocolHandler ["http-nio-3000"]
+2025-01-04 01:58:36 |INFO  |main |TomcatWebServer.java:220 |org.springframework.boot.web.embedded.tomcat.TomcatWebServer |Tomcat started on port(s): 3000 (http) with context path ''
+2025-01-04 01:58:36 |INFO  |main |DocumentationPluginsBootstrapper.java:93 |springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper |Documentation plugins bootstrapped
+2025-01-04 01:58:36 |INFO  |main |AbstractDocumentationPluginsBootstrapper.java:79 |springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper |Found 1 custom documentation plugin(s)
+2025-01-04 01:58:36 |INFO  |main |ApiListingReferenceScanner.java:44 |springfox.documentation.spring.web.scanners.ApiListingReferenceScanner |Scanning for api listing references
+2025-01-04 01:58:37 |INFO  |main |StartupInfoLogger.java:61 |ljl.bilibili.user_center.CenterEditApplication |Started CenterEditApplication in 5.005 seconds (JVM running for 5.801)
+2025-01-04 03:40:05 |INFO  |Thread-2 |TimeBasedFilter.java:24 |ljl.bilibili.filter.TimeBasedFilter |
+
+
+
+
+
+
+2025-01-04 03:40:05 |INFO  |Thread-2 |ZipkinAutoConfiguration.java:144 |org.springframework.cloud.sleuth.autoconfig.zipkin2.ZipkinAutoConfiguration |Flushing remaining spans on shutdown
+2025-01-04 03:40:05 |INFO  |SpringApplicationShutdownHook |DruidDataSource.java:2063 |com.alibaba.druid.pool.DruidDataSource |{dataSource-0} closing ...
+2025-01-04 14:18:31 |INFO  |main |StartupInfoLogger.java:55 |ljl.bilibili.user_center.CenterEditApplication |Starting CenterEditApplication using Java 17.0.13 on DESKTOP-JHA4ATL with PID 25904 (E:\YupiProjects\aigcbilibili-main\java\user_center\target\classes started by 欧阳健丽 in E:\YupiProjects\aigcbilibili-main)
+2025-01-04 14:18:31 |INFO  |main |SpringApplication.java:645 |ljl.bilibili.user_center.CenterEditApplication |No active profile set, falling back to 1 default profile: "default"
+2025-01-04 14:18:36 |INFO  |main |GenericScope.java:283 |org.springframework.cloud.context.scope.GenericScope |BeanFactory id=857f8e3d-9f77-3bd8-bfc8-c4f4806fc5a0
+2025-01-04 14:18:38 |INFO  |main |TomcatWebServer.java:108 |org.springframework.boot.web.embedded.tomcat.TomcatWebServer |Tomcat initialized with port(s): 3000 (http)
+2025-01-04 14:18:38 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+2025-01-04 14:18:38 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2025-01-04 14:18:38 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2025-01-04 14:18:38 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2025-01-04 14:18:38 |INFO  |main |DirectJDKLog.java:173 |org.apache.coyote.http11.Http11NioProtocol |Initializing ProtocolHandler ["http-nio-3000"]
+2025-01-04 14:18:38 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.StandardService |Starting service [Tomcat]
+2025-01-04 14:18:38 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.StandardEngine |Starting Servlet engine: [Apache Tomcat/9.0.65]
+2025-01-04 14:18:39 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] |Initializing Spring embedded WebApplicationContext
+2025-01-04 14:18:39 |INFO  |main |ServletWebServerApplicationContext.java:290 |org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext |Root WebApplicationContext: initialization completed in 7085 ms
+2025-01-04 14:18:40 |INFO  |main |MybatisPlusJoinAutoConfiguration.java:140 |com.github.yulichang.autoconfigure.MybatisPlusJoinAutoConfiguration |mybatis plus join properties config complete
+2025-01-04 14:18:40 |INFO  |main |MybatisPlusJoinAutoConfiguration.java:140 |com.github.yulichang.autoconfigure.MybatisPlusJoinAutoConfiguration |mybatis plus join SqlInjector init
+2025-01-04 14:18:46 |INFO  |main |WebMvcPropertySourcedRequestMappingHandlerMapping.java:69 |springfox.documentation.spring.web.WebMvcPropertySourcedRequestMappingHandlerMapping |Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2025-01-04 14:18:49 |INFO  |main |DirectJDKLog.java:173 |org.apache.coyote.http11.Http11NioProtocol |Starting ProtocolHandler ["http-nio-3000"]
+2025-01-04 14:18:49 |INFO  |main |TomcatWebServer.java:220 |org.springframework.boot.web.embedded.tomcat.TomcatWebServer |Tomcat started on port(s): 3000 (http) with context path ''
+2025-01-04 14:18:49 |INFO  |main |DocumentationPluginsBootstrapper.java:93 |springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper |Documentation plugins bootstrapped
+2025-01-04 14:18:49 |INFO  |main |AbstractDocumentationPluginsBootstrapper.java:79 |springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper |Found 1 custom documentation plugin(s)
+2025-01-04 14:18:50 |INFO  |main |ApiListingReferenceScanner.java:44 |springfox.documentation.spring.web.scanners.ApiListingReferenceScanner |Scanning for api listing references
+2025-01-04 14:18:50 |INFO  |main |StartupInfoLogger.java:61 |ljl.bilibili.user_center.CenterEditApplication |Started CenterEditApplication in 20.699 seconds (JVM running for 23.042)
+2025-01-04 20:27:57 |INFO  |main |StartupInfoLogger.java:55 |ljl.bilibili.user_center.CenterEditApplication |Starting CenterEditApplication using Java 17.0.13 on DESKTOP-JHA4ATL with PID 32516 (E:\YupiProjects\aigcbilibili-main\java\user_center\target\classes started by 欧阳健丽 in E:\YupiProjects\aigcbilibili-main)
+2025-01-04 20:27:57 |INFO  |main |SpringApplication.java:645 |ljl.bilibili.user_center.CenterEditApplication |No active profile set, falling back to 1 default profile: "default"
+2025-01-04 20:27:59 |INFO  |main |GenericScope.java:283 |org.springframework.cloud.context.scope.GenericScope |BeanFactory id=857f8e3d-9f77-3bd8-bfc8-c4f4806fc5a0
+2025-01-04 20:28:00 |INFO  |main |TomcatWebServer.java:108 |org.springframework.boot.web.embedded.tomcat.TomcatWebServer |Tomcat initialized with port(s): 3000 (http)
+2025-01-04 20:28:00 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+2025-01-04 20:28:00 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2025-01-04 20:28:00 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2025-01-04 20:28:00 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.AprLifecycleListener |OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2025-01-04 20:28:00 |INFO  |main |DirectJDKLog.java:173 |org.apache.coyote.http11.Http11NioProtocol |Initializing ProtocolHandler ["http-nio-3000"]
+2025-01-04 20:28:00 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.StandardService |Starting service [Tomcat]
+2025-01-04 20:28:00 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.StandardEngine |Starting Servlet engine: [Apache Tomcat/9.0.65]
+2025-01-04 20:28:00 |INFO  |main |DirectJDKLog.java:173 |org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] |Initializing Spring embedded WebApplicationContext
+2025-01-04 20:28:00 |INFO  |main |ServletWebServerApplicationContext.java:290 |org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext |Root WebApplicationContext: initialization completed in 3053 ms
+2025-01-04 20:28:00 |INFO  |main |MybatisPlusJoinAutoConfiguration.java:140 |com.github.yulichang.autoconfigure.MybatisPlusJoinAutoConfiguration |mybatis plus join properties config complete
+2025-01-04 20:28:01 |INFO  |main |MybatisPlusJoinAutoConfiguration.java:140 |com.github.yulichang.autoconfigure.MybatisPlusJoinAutoConfiguration |mybatis plus join SqlInjector init
+2025-01-04 20:28:04 |INFO  |main |WebMvcPropertySourcedRequestMappingHandlerMapping.java:69 |springfox.documentation.spring.web.WebMvcPropertySourcedRequestMappingHandlerMapping |Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2025-01-04 20:28:07 |INFO  |main |DirectJDKLog.java:173 |org.apache.coyote.http11.Http11NioProtocol |Starting ProtocolHandler ["http-nio-3000"]
+2025-01-04 20:28:07 |INFO  |main |TomcatWebServer.java:220 |org.springframework.boot.web.embedded.tomcat.TomcatWebServer |Tomcat started on port(s): 3000 (http) with context path ''
+2025-01-04 20:28:08 |INFO  |main |DocumentationPluginsBootstrapper.java:93 |springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper |Documentation plugins bootstrapped
+2025-01-04 20:28:08 |INFO  |main |AbstractDocumentationPluginsBootstrapper.java:79 |springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper |Found 1 custom documentation plugin(s)
+2025-01-04 20:28:08 |INFO  |main |ApiListingReferenceScanner.java:44 |springfox.documentation.spring.web.scanners.ApiListingReferenceScanner |Scanning for api listing references
+2025-01-04 20:28:08 |INFO  |main |StartupInfoLogger.java:61 |ljl.bilibili.user_center.CenterEditApplication |Started CenterEditApplication in 12.282 seconds (JVM running for 13.864)
